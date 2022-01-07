@@ -1,0 +1,4 @@
+.vscode
+store.db
+*.py[cod]
+.env
