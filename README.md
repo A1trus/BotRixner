@@ -56,22 +56,6 @@ The bot looks for the text $poll followed by JSON.  The title and the choices ar
 
 # Development
 
-This bot uses [pipenv](https://pipenv.pypa.io/en/latest/) to manage packages, virtual environments, and environment variables
-
-To install pipenv:
-```
-pip install pipenv
-```
-
-To setup your virtual environment and install required dependencies:
-```
-pipenv shell
-pipenv install
-```
-
-Then, to run the bot:
-```
-pipenv run python bot.py
-```
+Required packages are noted in the `requirements.txt` file
 
 For the bot to be able to login there will need to be a `token` environment variable set.  You can read more about the discord API [here](https://discord.com/developers/docs/intro)

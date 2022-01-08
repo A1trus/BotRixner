@@ -1,5 +1,6 @@
 import discord
 import os
+from dotenv import load_dotenv
 
 from events.messages import on_message
 from events.reactions import on_raw_reaction_add, on_raw_reaction_remove
@@ -19,4 +20,5 @@ class BotClient(discord.Client):
     
 client = BotClient()
 
+load_dotenv()
 client.run(os.environ.get('token'))
