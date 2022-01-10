@@ -13,6 +13,9 @@ This way, if you want to chat about the bot, you can do so without disturbing ev
 
 async def create_message(client: discord.Client, message: discord.Message):
 
+    # Do nothing if the bot message has already been sent
+    if message_store.get('bot_message_id') != None: return
+
     if message.content.startswith('$bot'):
 
         # Delete original message
