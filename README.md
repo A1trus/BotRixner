@@ -5,13 +5,9 @@ A Discord bot which uses [discord.py](https://discordpy.readthedocs.io/en/stable
 ---
 ## Capabilities
 
-### Current
 - Manages permissions to the bot discussion channel
 - Manages events and RSVPs through reactions
 - Polling via reactions
-
-### Planned
-- Assignment notifications from Canvas
 
 # Documentation: Events
 To create an event in a channel, copy, edit, then paste the following message in a text channel:
